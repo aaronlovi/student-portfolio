@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Burger Restaurant</title>
+
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#pictures">Pictures</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#video">Video</a></li>
+            </ul>
+        </nav>
+
+        <div id="home">
+            <h1>Welcome to Burger Restaurant</h1>
+            <p>Our restaurant is the best place to eat burgers. We have a wide variety of burgers to choose from. 
+                We have beef burgers, chicken burgers, and veggie burgers. We also have a variety of toppings to 
+                choose from. Our burgers are made with fresh ingredients and are cooked to perfection. Come and 
+                try our delicious burgers today!</p>
+        </div>
+
+        <hr />
+
+        <div id="pictures">
+            <h1>Pictures</h1>
+            
+            <div>
+                <label for="lots_burgers">Lots of Burgers</label>
+                <img id="lots_burgers" src="./lots-burgers.jpg" width="200" height="200" alt="Lots of Burgers">
+            </div>
+
+            <div>
+                <label for="one_burger">One Burger</label>
+                <img id="one_burger" src="./one-burger.jpg" width="200" height="200" alt="One Burger">
+            </div>
+        </div>
+
+        <hr />
+
+        <div id="contact">
+            <h1>Contact Us</h1>
+            <form action="" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+        <hr />
+
+        <div id="video">
+            <h1>Video</h1>
+
+            <video width="320" height="240" controls loop muted>
+                <source src="./burger-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+        </div>
+
+        <hr />
+
+        <div id="footer">
+            <footer>
+                <a href="#home">Home</a>
+                <a href="#pictures">Pictures</a>
+                <a href="#contact">Contact</a>
+                <a href="#video">Video</a>
+                <br>
+                <p>&copy; 2024 Burger Restaurant</p>
+            </footer>
+        </div>
+    </body>
+</html>
